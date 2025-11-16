@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Health Chatbot</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <h1>Health Helper Bot</h1>
+    <div id="chat-window">
+      <!-- Messages will appear here -->
+    </div>
+    <form id="chat-form">
+      <input
+        type="text"
+        id="user-input"
+        placeholder="Describe your symptoms or ask a health question..."
+        autocomplete="off"
+        required
+      />
+      <button type="submit">Send</button>
+    </form>
+    <p class="disclaimer">
+      ⚠️ I am not a doctor. I only give general health information.
+      Always talk to a real doctor for diagnosis or treatment.
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
